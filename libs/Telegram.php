@@ -7,7 +7,7 @@
  * @licence : MIT Licence
  *
  */
-namespace Smoqadam;
+namespace Model_Media;
 
 
 class Telegram
