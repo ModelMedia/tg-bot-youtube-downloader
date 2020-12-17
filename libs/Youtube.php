@@ -150,7 +150,7 @@ class Youtube
     public function checkForOldFiles()
     {
         $path = $this->getPath();
-        $life_time = 24 * 3600;
+        $life_time = 168 * 3600;
         if ($handle = opendir($path)) {
 
             while (false !== ($file = readdir($handle))) {
